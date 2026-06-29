@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="Nuna" />
+  <title>Nuna</title>
+  <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body style="margin:0;background:#FAF8F5">
+  <div id="root"></div>
+  <script type="text/babel" src="nuna-app.jsx"></script>
+  <script type="text/babel">
+    ReactDOM.createRoot(document.getElementById('root')).render(
+      React.createElement(NunaApp)
+    );
+  </script>
+</body>
+</html>
